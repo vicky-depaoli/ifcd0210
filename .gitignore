@@ -1,4 +1,7 @@
-# Excluir configuraciones específicas de Visual Studio Code y Code OSS
+# vickydep ignored files
+ignored-files/
+
+# Excluir configuraciones especificas de Visual Studio Code y Code OSS
 .vscode/
 .code-oss/
 
@@ -12,7 +15,7 @@
 *.log
 *.swp
 
-# Archivos generados automáticamente por extensiones
+# Archivos generados automaticamente por extensiones
 .vscode-test/
 
 # Sistema operativo
