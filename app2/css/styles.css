@@ -218,6 +218,17 @@ h1, h2, h3 {
     font-size: 1.5rem;
 }
 
+@media (max-width:500px) {
+    .mod-formativos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mod-formativos h3 {
+        margin-bottom: 0;
+    }
+}
+
 footer {
     text-align: center;
     margin-top: 5rem;
