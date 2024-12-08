@@ -1,0 +1,53 @@
+# Excluir configuraciones específicas de Visual Studio Code y Code OSS
+.vscode/
+.code-oss/
+
+# Archivos temporales del editor
+*.code-workspace
+*.code-oss-workspace
+
+# Archivos de respaldo creados por el editor
+*.tmp
+*.bak
+*.log
+*.swp
+
+# Archivos generados automáticamente por extensiones
+.vscode-test/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Node.js (si trabajas con JavaScript/TypeScript)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (si trabajas con este lenguaje)
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Archivos de entorno y variables sensibles
+.env.local
+.env.*.local
+
+# Excluir binarios o resultados de compilaciones (si aplicable)
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+
+# Excluir archivos de pruebas o logs
+coverage/
+*.spec.js
+*.test.js
+*.out
