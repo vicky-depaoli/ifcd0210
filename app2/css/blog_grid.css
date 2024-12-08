@@ -1,0 +1,53 @@
+.nav-cabecera .blog {
+    color: var(--seleccionado);
+}
+
+@media (min-width:1140px) {
+    .miblog {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        column-gap: 2rem;
+        max-width: 120rem;
+        margin: 2rem auto;
+    }
+}
+
+.cursos-comenzados {
+    display: grid;
+    order: 1;
+}
+
+.cursos-comenzados img {
+    width: 100%;
+}
+
+.cursos-comenzados li {
+    padding: 1rem;
+}
+
+.des-objetivo img {
+    display: flex;
+    justify-content: center;
+}
+
+.des-objetivo p {
+    text-align: justify;
+}
+
+.experiencias {
+    display: grid;
+    order: 2;
+    align-content: start;
+}
+
+.experiencias h3 {
+    color: var(--secundario-oscuro);
+}
+
+.experiencias p {
+    text-align: justify;
+}
+
+aside {
+    margin-top: 4rem;
+}
