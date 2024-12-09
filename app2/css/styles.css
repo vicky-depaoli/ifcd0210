@@ -202,7 +202,8 @@ h1, h2, h3 {
     color: var(--secundario-oscuro);
     font-weight: var(--forma-principal);
     font-size: 1.5rem;
-    min-height: 3rem;
+    min-height: 5rem;
+    margin-bottom: 0;
 }
 
 .mod-formativos svg {
@@ -215,7 +216,10 @@ h1, h2, h3 {
 }
 
 .mod-formativos p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    min-height: 6rem;
+    line-height: 2;
+    color: var(--principal);
 }
 
 @media (max-width:768px) {
@@ -227,12 +231,8 @@ h1, h2, h3 {
 
 @media (max-width:500px) {
     .mod-formativos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .mod-formativos h3 {
-        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
